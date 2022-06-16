@@ -1,0 +1,23 @@
+{
+    "exp_name": "baseline_1kw_pre_lr2e-5",
+    "gym_id": "TennisNoFrameskip-v4",
+    "learning_rate": 2e-05,
+    "seed": 2022,
+    "total_timesteps": 10000000,
+    "torch_deterministic": true,
+    "cuda": true,
+    "prod_mode": false,
+    "capture_video": false,
+    "save_interval": 100000,
+    "eval_episode": 3,
+    "buffer_size": 100000,
+    "gamma": 0.99,
+    "target_network_frequency": 1000,
+    "max_grad_norm": 0.5,
+    "batch_size": 512,
+    "start_e": 0.1,
+    "end_e": 0.02,
+    "exploration_fraction": 0.04,
+    "learning_starts": 100000,
+    "train_frequency": 4
+}
